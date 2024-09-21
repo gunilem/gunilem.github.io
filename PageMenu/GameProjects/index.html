@@ -40,17 +40,17 @@
             </div>
         </div>
         <div class="main">
-            <div>
+            <div style="width:1500px">
                 <h1> Games!</h1>
                 <div style="margin-bottom: 30px">
                     Here are some games that I've created, some are prototypes that I really want to improuve, some are games that I created for school projects and JAM.
                 </div>
                 <div>
                     <div class="project-list-section">
-                        <h1 class="project-list-title"> Unity project with Iconic Snails </h1>
+                        <h1 class="project-list-title"> Unity projects with Iconic Snails </h1>
                         <div class="project-list">
                             <div class="project-item" id="Epitaph-Open-Button">
-                                <div class="project-item-image" style="background-image: url(../../img/Projects/Epitaph/thumbnail.png)"></div>
+                                <img class="project-item-image" src="../../img/Projects/Epitaph/thumbnail.png"/>
                                 <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
                                     <div class="title-text">
                                         Epitaph
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="project-item" id="Starland-Open-Button">
-                                <div class="project-item-image" style="background-image: url(../../img/Projects/Starland/thumbnail.png)"></div>
+                                <img class="project-item-image" src="../../img/Projects/Starland/thumbnail.png"/>
                                 <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
                                     <div class="title-text">
                                         Starland
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                             <div class="project-item" id="ReversedHero-Open-Button">
-                                <div class="project-item-image" style="background-image: url(../../img/Projects/ReversedHero/thumbnail.png)"></div>
+                                <img class="project-item-image" src="../../img/Projects/ReversedHero/thumbnail.png"/>
                                 <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
                                     <div class="title-text">
                                         Starland
@@ -76,10 +76,10 @@
                         </div>
                     </div>
                     <div class="project-list-section">
-                        <h1 class="project-list-title"> My studies Unity project </h1>
+                        <h1 class="project-list-title"> My studies Unity projects </h1>
                         <div class="project-list">
                             <div class="project-item high wide" id="RushHour-Open-Button">
-                                <div class="project-item-image" style="background-image: url(../../img/Projects/RushHour/thumbnail.png)"></div>
+                                <img class="project-item-image" src="../../img/Projects/RushHour/thumbnail.png"/>
                                 <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
                                     <div class="title-text">
                                         Starland
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="project-item" id="CanYouReachTheDoor-Open-Button">
-                                <div class="project-item-image" style="background-image: url(../../img/Projects/CanYouReachTheDoor/thumbnail.png)"></div>
+                                <img class="project-item-image" src="../../img/Projects/CanYouReachTheDoor/thumbnail.png"/>
                                 <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
                                     <div class="title-text">
                                         Can You Reach The Door ?
@@ -208,7 +208,7 @@
                                 This game is about a player who controls monsters and wants to kill the humans.
                             </div>
                             <div class="paragraph center">
-                                <iframe class="youtube" src="https://youtu.be/t26dUvmkhAY" frameborder="0" allowfullscreen></iframe>
+                                <iframe class="youtube" src="https://youtube.com/embed/t26dUvmkhAY" frameborder="0" allowfullscreen></iframe>
                             </div>
                             <div class="paragraph center">
                                 <a href="https://iconic-snails.itch.io/reversed-hero" target="_blank">
@@ -392,6 +392,8 @@
                 if (div.style.display === 'none' || div.style.display === '') {
                     div.style.display = 'block';
                 }
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             });
 
             closeButton0.addEventListener('click', function () {
@@ -414,6 +416,7 @@
                     div.style.display = 'none';
                 }
             });
+
         }
 
         const sandwitchOpenButton = document.getElementById('open-sandwitch-Button');
