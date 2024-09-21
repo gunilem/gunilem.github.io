@@ -18,6 +18,11 @@ head{
     padding: 12px;
 }
 
+
+body.stop-scrolling {
+    overflow: hidden;
+}
+
 @media only screen and (min-width: 620px) {
     .main {
         display: flex;

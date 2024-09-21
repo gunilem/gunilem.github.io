@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="main">
-            <div style="width:1500px">
+            <div style=" width:100%; max-width:1500px">
                 <h1> Games!</h1>
                 <div style="margin-bottom: 30px">
                     Here are some games that I've created, some are prototypes that I really want to improuve, some are games that I created for school projects and JAM.
@@ -115,7 +115,7 @@
                             </div>
                             <div class="paragraph center">
                                 <a href="https://iconic-snails.itch.io/epitaph" target="_blank">
-                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                    <img src="../../img/itchio-link.png" style="width: 100%; max-width: 300px">
                                 </a>
                             </div>
                             <div class="paragraph">
@@ -163,7 +163,7 @@
                             </div>
                             <div class="paragraph center">
                                 <a href="https://iconic-snails.itch.io/Starland" target="_blank">
-                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                    <img src="../../img/itchio-link.png"  style="width: 100%; max-width: 300px">
                                 </a>
                             </div>
                             <div class="paragraph">
@@ -212,7 +212,7 @@
                             </div>
                             <div class="paragraph center">
                                 <a href="https://iconic-snails.itch.io/reversed-hero" target="_blank">
-                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                    <img src="../../img/itchio-link.png"  style="width: 100%; max-width: 300px">
                                 </a>
                             </div>
                             <div class="paragraph">
@@ -261,7 +261,7 @@
                             </div>
                             <div class="paragraph center">
                                 <a href="https://hrndz-joseph.itch.io/rushhour" target="_blank">
-                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                    <img src="../../img/itchio-link.png"  style="width: 100%; max-width: 300px">
                                 </a>
                             </div>
                             <div class="paragraph">
@@ -324,7 +324,7 @@
                             </div>
                             <div class="paragraph center">
                                 <a href="https://gunilem.itch.io/can-you-reach-the-door" target="_blank">
-                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                    <img src="../../img/itchio-link.png"  style="width: 100%; max-width: 300px">
                                 </a>
                             </div>
                             <div class="paragraph">
@@ -426,11 +426,13 @@
         sandwitchOpenButton.addEventListener('click', function () {
             // Toggle display between 'none' and 'block'
             sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
         });
 
         sandwitchCloseButton.addEventListener('click', function () {
             // Toggle display between 'none' and 'block'
             sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
         });
 
     </script>

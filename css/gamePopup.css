@@ -80,9 +80,15 @@ h1.dialog-title {
     text-align: center;
 }
 
+.dialog-content img {
+    width:100%;
+    height:auto;
+}
+
 
 .dialog-content iframe.youtube {
     width: 100%;
+    height: auto;
     min-height: 280px;
 }
 

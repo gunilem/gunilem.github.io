@@ -91,11 +91,13 @@
         sandwitchOpenButton.addEventListener('click', function () {
             // Toggle display between 'none' and 'block'
             sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
         });
 
         sandwitchCloseButton.addEventListener('click', function () {
             // Toggle display between 'none' and 'block'
             sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
         });
 
     </script>
