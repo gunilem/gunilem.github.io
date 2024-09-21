@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="../../css/mainStyle.css" rel="stylesheet">
+    <link href="../../css/navbar.css" rel="stylesheet">
+    <link href="../../css/ProjectList.css" rel="stylesheet">
+    <link href="../../css/gamePopup.css" rel="stylesheet">
+</head>
+
+<body>
+    <noscript>
+        <strong>Sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+        <div class="header">
+            <div class="nav-bar">
+                <a data-v-navLinks href="../../"> About me </a>
+                <a data-v-navLinks href="" class="link-active" aria-current="page"> Games </a>
+                <!--<a data-v-navLinks href="../other-projects"> Other projects </a>-->
+                <a data-v-navLinks href="../Resume"> Resume </a>
+                <a data-v-navLinks href="../Contact"> Contact </a>
+
+            </div>
+            <div class="sandwitch-menu">
+                <p class="current" aria-current="page"> Games </p>
+                <img src="../../img/menu.png" id="open-sandwitch-Button" />
+                <div class="content" id="sandwitch-div">
+                    <div>
+                        <ul>
+                            <li><a data-v-sandwitchLinks href="../../"> About me </a></li>
+                            <li><a data-v-sandwitchLinks href="" class="link-active" aria-current="page"> Games </a></li>
+                            <!--<li><a data-v-navLinks href="./PageMenu/other-projects"> Other projects </a></li>-->
+                            <li><a data-v-sandwitchLinks href="../Resume"> Resume </a></li>
+                            <li><a data-v-sandwitchLinks href="../Contact"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div>
+                <h1> Games!</h1>
+                <div style="margin-bottom: 30px">
+                    Here are some games that I've created, some are prototypes that I really want to improuve, some are games that I created for school projects and JAM.
+                </div>
+                <div>
+                    <div class="project-list-section">
+                        <h1 class="project-list-title"> Unity project with Iconic Snails </h1>
+                        <div class="project-list">
+                            <div class="project-item" id="Epitaph-Open-Button">
+                                <div class="project-item-image" style="background-image: url(../../img/Projects/Epitaph/thumbnail.png)"></div>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Epitaph
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item" id="Starland-Open-Button">
+                                <div class="project-item-image" style="background-image: url(../../img/Projects/Starland/thumbnail.png)"></div>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Starland
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item" id="ReversedHero-Open-Button">
+                                <div class="project-item-image" style="background-image: url(../../img/Projects/ReversedHero/thumbnail.png)"></div>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Starland
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-list-section">
+                        <h1 class="project-list-title"> My studies Unity project </h1>
+                        <div class="project-list">
+                            <div class="project-item high wide" id="RushHour-Open-Button">
+                                <div class="project-item-image" style="background-image: url(../../img/Projects/RushHour/thumbnail.png)"></div>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Starland
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-item" id="CanYouReachTheDoor-Open-Button">
+                                <div class="project-item-image" style="background-image: url(../../img/Projects/CanYouReachTheDoor/thumbnail.png)"></div>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Can You Reach The Door ?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="game-popup" id="Epitaph-div">
+                <div class="overlay" id="Epitaph-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Epitaph </h1>
+                    <div class="dialog-close" id="Epitaph-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Epitaph is an Idle game made for the Ludum Dare 2023.
+                            </div>
+                            <div class="paragraph center">
+                                <img src="../../img/Projects/Epitaph/thumbnail.png" frameborder="0">
+                            </div>
+                            <div class="paragraph center">
+                                <a href="https://iconic-snails.itch.io/epitaph" target="_blank">
+                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                Creation info:
+                                <ul>
+                                    <li>
+                                        Team: 3 people
+                                    </li>
+                                    <li>
+                                        Time: 3 days
+                                    </li>
+                                    <li>
+                                        Jam: Ludum Dare 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paragraph center">
+                                <img class="screenshot" src="../../img/Projects/Epitaph/1.png" />
+                                <img class="screenshot" src="../../img/Projects/Epitaph/2.png" />
+                                <img class="screenshot" src="../../img/Projects/Epitaph/3.png" />
+                                <img class="screenshot" src="../../img/Projects/Epitaph/4.png" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="Epitaph-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+            <div class="game-popup" id="Starland-div">
+                <div class="overlay" id="Starland-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Starland </h1>
+                    <div class="dialog-close" id="Starland-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Epitaph is an Idle game made for the Kenney's Jam 2023.
+                            </div>
+                            <div class="paragraph center">
+                                <img src="../../img/Projects/Starland/thumbnail.png" frameborder="0">
+                            </div>
+                            <div class="paragraph center">
+                                <a href="https://iconic-snails.itch.io/Starland" target="_blank">
+                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                Creation info:
+                                <ul>
+                                    <li>
+                                        Team: 2 people
+                                    </li>
+                                    <li>
+                                        Time: 2 days
+                                    </li>
+                                    <li>
+                                        Jam: Kenney's Jam 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paragraph center">
+                                <img class="screenshot" src="../../img/Projects/Starland/1.png" />
+                                <img class="screenshot" src="../../img/Projects/Starland/2.png" />
+                                <img class="screenshot" src="../../img/Projects/Starland/3.png" />
+                                <img class="screenshot" src="../../img/Projects/Starland/4.png" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="Starland-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+            <div class="game-popup" id="ReversedHero-div">
+                <div class="overlay" id="ReversedHero-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Reversed Hero </h1>
+                    <div class="dialog-close" id="ReversedHero-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Reversed Hero is an game made for the Cram Jam! 2023. <br />
+                                This game is about a player who controls monsters and wants to kill the humans.
+                            </div>
+                            <div class="paragraph center">
+                                <iframe class="youtube" src="https://youtu.be/t26dUvmkhAY" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="paragraph center">
+                                <a href="https://iconic-snails.itch.io/reversed-hero" target="_blank">
+                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                Creation info:
+                                <ul>
+                                    <li>
+                                        Team: 2 people
+                                    </li>
+                                    <li>
+                                        Time: 1 day
+                                    </li>
+                                    <li>
+                                        Jam: Cram Jam! 2023
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paragraph center">
+                                <img class="screenshot" src="../../img/Projects/ReversedHero/1.png" />
+                                <img class="screenshot" src="../../img/Projects/ReversedHero/2.png" />
+                                <img class="screenshot" src="../../img/Projects/ReversedHero/3.png" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="ReversedHero-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-popup" id="RushHour-div">
+                <div class="overlay" id="RushHour-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Rush Hour </h1>
+                    <div class="dialog-close" id="RushHour-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Rush Hour is a game made for the Cnam ENJMIN computer science license first year project. <br />
+                                This portal game like game is my first Unity game.
+                            </div>
+                            <div class="paragraph center">
+                                <img src="../../img/Projects/RushHour/thumbnail.png" frameborder="0">
+                            </div>
+                            <div class="paragraph center">
+                                <a href="https://hrndz-joseph.itch.io/rushhour" target="_blank">
+                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                Creation info:
+                                <ul>
+                                    <li>
+                                        Team: 6 people
+                                    </li>
+                                    <li>
+                                        Time: 6 month
+                                    </li>
+                                    <li>
+                                        Creation context: Cnam ENJMIN computer science license first year project.
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="paragraph">
+                                In this game, a player has to throw the product the customer wants into the customer's shopping cart.
+                                Game Description:
+                                <ul>
+                                    <li>
+                                        Genre: Arcane, Jabjob (first-person, non-violent, object-throwing mechanics), Multiplayer
+                                    </li>
+                                    <li>
+                                        Feature: Random room event (earthquake, restock ...)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paragraph center">
+                                <img class="screenshot" src="../../img/Projects/RushHour/1.gif" />
+                                <img class="screenshot" src="../../img/Projects/RushHour/2.gif" />
+                                <img class="screenshot" src="../../img/Projects/RushHour/3.gif" />
+                                <img class="screenshot" src="../../img/Projects/RushHour/4.gif" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="RushHour-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+            <div class="game-popup" id="CanYouReachTheDoor-div">
+                <div class="overlay" id="CanYouReachTheDoor-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Can You Reach The Door? </h1>
+                    <div class="dialog-close" id="CanYouReachTheDoor-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Can You Reach The Door? is a game made for the computer science license entrance exam at the Canm ENJMIN <br />
+                                This portal game like game is my first Unity game.
+                            </div>
+                            <div class="paragraph center">
+                                <img src="../../img/Projects/CanYouReachTheDoor/thumbnail.png" frameborder="0">
+                            </div>
+                            <div class="paragraph center">
+                                <a href="https://gunilem.itch.io/can-you-reach-the-door" target="_blank">
+                                    <img src="../../img/itchio-link.png" style="width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                Creation info :
+                                <ul>
+                                    <li>
+                                        Team: alone
+                                    </li>
+                                    <li>
+                                        Time: 5 days
+                                    </li>
+                                    <li>
+                                        Creation context: Cnam ENJMIN computer science license entrance exam.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--
+                    <div class="paragraph center">
+                        <img class="screenshot" src="../img/Projects/CanYouReachTheDoor/1.png" />
+                        <img class="screenshot" src="../img/Projects/CanYouReachTheDoor/2.png" />
+                        <img class="screenshot" src="../img/Projects/CanYouReachTheDoor/3.png" />
+                    </div>
+                    -->
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="CanYouReachTheDoor-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="#/">Portfolio</a>
+                by Gunilem
+            </div>
+            <div class="right">
+                Reach me at <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com </a> or <a href="#/contact">through here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        gamePopup('Epitaph');
+        gamePopup('Starland');
+        gamePopup('ReversedHero');
+
+
+        gamePopup('CanYouReachTheDoor');
+        gamePopup('RushHour');
+
+        function gamePopup(gameName) {
+            const openButton = document.getElementById(gameName + '-Open-Button');
+            const div = document.getElementById(gameName + '-div');
+            const closeButton0 = document.getElementById(gameName + '-Close-Button0');
+            const closeButton1 = document.getElementById(gameName + '-Close-Button1');
+            const closeButton2 = document.getElementById(gameName + '-Close-Button2');
+
+            openButton.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (div.style.display === 'none' || div.style.display === '') {
+                    div.style.display = 'block';
+                }
+            });
+
+            closeButton0.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+
+            closeButton1.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+
+            closeButton2.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+        }
+
+        const sandwitchOpenButton = document.getElementById('open-sandwitch-Button');
+        const sandwitchCloseButton = document.getElementById('sandwitch-div');
+        const sandwitchDiv = document.getElementById('sandwitch-div');
+
+        sandwitchOpenButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+
+        sandwitchCloseButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+
+    </script>
+
+    <!--<script src="../js/chunk-vendors.da034d02.js"></script>
+    <script src="../js/app.a7c0fcc5.js"></script>-->
+
+</body>
+</html>

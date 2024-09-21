@@ -1,0 +1,128 @@
+.overlay {
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.dialog {
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 620px) {
+    .dialog {
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        max-width: 1000px;
+    }
+}
+
+h1.dialog-title {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 22px;
+}
+
+@media only screen and (min-width: 620px) {
+    h1.dialog-title[data-v-9fa3ecaa] {
+        font-size: 1.6em;
+    }
+}
+
+.dialog-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.dialog-close img
+{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.dialog-content {
+    padding: 20px;
+    font-size: .9em;
+    background-color: #fcfcfc;
+    color: #696969;
+}
+
+
+@media only screen and (min-width: 620px) {
+    .dialog-content {
+        padding: 40px;
+        font-size: 1.1em;
+    }
+}
+
+.dialog-content .paragraph {
+    margin: 20px 0;
+}
+
+.dialog-content .center {
+    text-align: center;
+}
+
+
+.dialog-content iframe.youtube {
+    width: 100%;
+    min-height: 280px;
+}
+
+@media only screen and (min-width: 620px) {
+    .dialog-content iframe.youtube {
+        max-width: 728px;
+        height: 409px;
+    }
+}
+
+.dialog-content a {
+    color: #696969;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.dialog-bottom {
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 22px;
+}
+
+a.dialog-close-button {
+    cursor: pointer;
+    font-size: 1.4em;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.game-popup{
+    display:none;
+
+}
+
+@media only screen and (min-width: 620px) {
+    .dialog-content .screenshot {
+        margin: 15px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="./css/mainStyle.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+    <title>Paul Lemattre</title>
+    <meta name=description content="Paul's portfolio website. Apprenticeship studient gameplay developper">
+    <meta property=og:title content="Paul Lemattre">
+    <meta property=og:description content="Apprenticeship studient gameplay developper">
+    <!--<meta property=og:url content=https://scheefer.me>-->
+    <!--<meta property=og:image content=https://scheefer.me/img/avatar-og.png>-->
+</head>
+
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="nav-bar">
+                <a data-v-navLinks href="./" class="link-active" aria-current="page"> About me </a>
+                <a data-v-navLinks href="./PageMenu/GameProjects"> Games </a>
+                <!--<a data-v-navLinks href="./PageMenu/other-projects"> Other projects </a>-->
+                <a data-v-navLinks href="./PageMenu/Resume"> Resume </a>
+                <a data-v-navLinks href="./PageMenu/Contact"> Contact </a>
+            </div>
+            <div class="sandwitch-menu">
+                <p class="current" aria-current="page"> About me </p>
+                <img src="./img/menu.png" id="open-sandwitch-Button" />
+                <div class="content" id="sandwitch-div">
+                    <div>
+                        <ul>
+                            <li><a data-v-sandwitchLinks href="" class="link-active" aria-current="page"> About me </a></li>
+                            <li><a data-v-sandwitchLinks href="./PageMenu/GameProjects"> Games </a></li>
+                            <!--<li><a data-v-navLinks href="./PageMenu/other-projects"> Other projects </a></li>-->
+                            <li><a data-v-sandwitchLinks href="./PageMenu/Resume"> Resume </a></li>
+                            <li><a data-v-sandwitchLinks href="./PageMenu/Contact"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div style="margin-bottom: 80px">
+                <h1> Hello!</h1>
+                <div data-v-3ffc0470 class="paragraph">
+                    <div>
+                        My Name is
+                        <strong>Paul Lemattre</strong>
+                        , and I'm a studient at the
+                        <a href="https://enjmin.cnam.fr/cnam-enjmin/presentation/">ENJMIN computer science school</a>
+                        in <strong>Angoulême, France</strong>, focused on video games.<br />
+                        I'm in the second year of the <a href="https://enjmin.cnam.fr/formations/licence-informatique-jeux-video/">computer science license</a>.
+                    </div>
+                    <div style="margin-top: 20px">
+                        I'm passionate about video game development and have decided to focus my studies on this field.<br />
+                        My studies allow me to deepen my knowledge and skills in video game development more than anywhere else, thanks to the alternating rhythm between courses and work.
+                    </div>
+                    <div style="margin-top: 20px">
+                        I'm curious by nature and i want things done right.<br />
+                        I've worked on some <a>Games</a> (either for my study, or just for fun) using a game engine like Unity
+                        or just a graphic interface like Pygame (on Python) or windows Form (on C#).
+                    </div>
+                    <div style="margin-top: 80px">
+                        I'm currently working for <a href="https://babaoo.com">Babaoo</a> startup as a Unity integrator and Prototyper.<br />
+                        You can reach me at <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com </a> or <a href="#/contact">through here</a>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="#/">Portfolio</a>
+                by Gunilem
+            </div>
+            <div class="right">
+                Reach me at <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com </a> or <a href="#/contact">through here</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const sandwitchOpenButton = document.getElementById('open-sandwitch-Button');
+        const sandwitchCloseButton = document.getElementById('sandwitch-div');
+        const sandwitchDiv = document.getElementById('sandwitch-div');
+
+        sandwitchOpenButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+
+        sandwitchCloseButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+
+    </script>
+</body>
+</html>

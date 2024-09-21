@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="../../css/mainStyle.css" rel="stylesheet">
+    <link href="../../css/navbar.css" rel="stylesheet">
+    <title>Paul Lemattre</title>
+    <meta name=description content="Paul's portfolio website. Apprenticeship studient gameplay developper">
+    <meta property=og:title content="Paul Lemattre">
+    <meta property=og:description content="Apprenticeship studient gameplay developper">
+    <!--<meta property=og:url content=https://scheefer.me>-->
+    <!--<meta property=og:image content=https://scheefer.me/img/avatar-og.png>-->
+</head>
+
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="nav-bar">
+                <a data-v-navLinks href="../.."> About me </a>
+                <a data-v-navLinks href="../GameProjects"> Games </a>
+                <!--<a data-v-navLinks href="../other-projects"> Other projects </a>-->
+                <a data-v-navLinks href="../Resume"> Resume </a>
+                <a data-v-navLinks href="" class="link-active" aria-current="page"> Contact </a>
+
+            </div>
+            <div class="sandwitch-menu">
+                <p class="current" aria-current="page"> Contact </p>
+                <img src="../../img/menu.png" id="open-sandwitch-Button" />
+                <div class="content" id="sandwitch-div">
+                    <div>
+                        <ul>
+                            <li><a data-v-sandwitchLinks href="../../"> About me </a></li>
+                            <li><a data-v-sandwitchLinks href="../GameProjects"> Games </a></li>
+                            <!--<li><a data-v-navLinks href="./PageMenu/other-projects"> Other projects </a></li>-->
+                            <li><a data-v-sandwitchLinks href="../Resume"> Resume </a></li>
+                            <li><a data-v-sandwitchLinks href="" class="link-active" aria-current="page"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div style="margin-bottom: 80px">
+                <div>
+                    <h1> Let's get in touch:</h1>
+                    You can contact me or find my projects with the links below, fell free to contact me at any time !
+                </div>
+                <div class="contact-link">
+                    <img class="contact-link" src="../../img/Portfolio.png" />
+                    <a href=""> Portfolio</a>
+                </div>
+                <div class="contact-link">
+                    <img class="contact-link" src="../../img/linkedIn.png" />
+                    <a href="https://www.linkedin.com/in/paul-lemattre/?originalSubdomain=fr"> www.linkedin.com/in/paul-lemattre</a>
+                </div>
+                <div class="contact-link">
+                    <img class="contact-link" src="../../img/mail.png" />
+                    <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com</a>
+                </div>
+                <div class="contact-link">
+                    <img class="contact-link" src="../../img/GameLink.png" />
+                    <a href="https://iconic-snails.itch.io"> https://iconic-snails.itch.io</a>
+                </div>
+                <div class="contact-link">
+                    <img class="contact-link" src="../../img/GameLink.png" />
+                    <a href="https://gunilem.itch.io"> https://gunilem.itch.io</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="#/">Portfolio</a>
+                by Gunilem
+            </div>
+            <div class="right">
+                Reach me at <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com </a> or <a href="#/contact">through here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const sandwitchOpenButton = document.getElementById('open-sandwitch-Button');
+        const sandwitchCloseButton = document.getElementById('sandwitch-div');
+        const sandwitchDiv = document.getElementById('sandwitch-div');
+
+        sandwitchOpenButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+
+        sandwitchCloseButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+        });
+    </script>
+</body>
+</html>

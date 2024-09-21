@@ -1,0 +1,123 @@
+
+
+.nav-bar {
+    display: none;
+}
+
+@media only screen and (min-width: 620px) {
+    .nav-bar {
+        display:block;
+        text-align: right;
+        padding: 20px;
+        line-height: 3em;
+    }
+}
+
+.link-active, a:hover {
+    opacity: 1;
+}
+
+a[data-v-navLinks] {
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.link-active {
+    border: 0 solid white;
+    border-bottom-width: 2px;
+}
+
+
+a {
+    color: #dcdcdc;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+
+.sandwitch-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 620px) {
+    .sandwitch-menu {
+        display: none;
+    }
+}
+
+.sandwitch-menu .content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: -100%;
+
+    transition: all 0.5s ease;
+}
+
+.content.active {
+    margin-left: 0;
+}
+
+.sandwitch-menu img {
+    align-self: flex-start;
+    height: 40px;
+    margin: 30px;
+    z-index: 12;
+}
+
+.sandwitch-menu .content ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    margin: 40px;
+}
+
+.sandwitch-menu .content div {
+    background-color: black;
+    z-index: 12;
+    border-radius: 12px;
+}
+
+.sandwitch-menu .content ul li {
+    font-size: 1.5em;
+    margin: 25px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.sandwitch-menu .current {
+    border: 0 solid white;
+    border-bottom-width: 2px;
+    color: #dcdcdc;
+    text-decoration: none;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+    font-size: 1.5em;
+    font-weight: bold;
+}
