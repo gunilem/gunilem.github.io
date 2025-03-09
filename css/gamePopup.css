@@ -74,6 +74,7 @@ h1.dialog-title {
 
 .dialog-content .paragraph {
     margin: 20px 0;
+    color: #000000;
 }
 
 .dialog-content .center {
@@ -81,7 +82,7 @@ h1.dialog-title {
 }
 
 .dialog-content img {
-    width:100%;
+    width:50%;
     height:auto;
 }
 
@@ -99,10 +100,12 @@ h1.dialog-title {
     }
 }
 
-.dialog-content a {
-    color: #696969;
+.dialog-content a[data-v-imgLink] {
     opacity: 1;
-    text-decoration: underline;
+}
+
+.dialog-content a {
+    color: #000000;
 }
 
 .dialog-bottom {

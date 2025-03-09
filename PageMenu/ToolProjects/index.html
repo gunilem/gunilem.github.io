@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="../../css/mainStyle.css" rel="stylesheet">
+    <link href="../../css/navbar.css" rel="stylesheet">
+    <link href="../../css/ProjectList.css" rel="stylesheet">
+    <link href="../../css/gamePopup.css" rel="stylesheet">
+</head>
+
+<body>
+    <noscript>
+        <strong>Sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+        <div class="header">
+            <div class="nav-bar">
+                <a data-v-navLinks href="../../"> About me </a>
+                <a data-v-navLinks href="../GameProjects"> Games </a>
+                <a data-v-navLinks href=""  class="link-active" aria-current="page"> Tools </a>
+                <a data-v-navLinks href="../Resume"> Resume </a>
+                <a data-v-navLinks href="../Contact"> Contact </a>
+
+            </div>
+            <div class="sandwitch-menu">
+                <p class="current" aria-current="page"> Games </p>
+                <img src="../../img/menu.png" id="open-sandwitch-Button" />
+                <div class="content" id="sandwitch-div">
+                    <div>
+                        <ul>
+                            <li><a data-v-sandwitchLinks href="../../"> About me </a></li>
+                            <li><a data-v-sandwitchLinks href="../GameProjects"> Games </a></li>
+                            <li><a data-v-sandwitchLinks href="" class="link-active" aria-current="page"> Tools </a></li>
+                            <li><a data-v-sandwitchLinks href="../Resume"> Resume </a></li>
+                            <li><a data-v-sandwitchLinks href="../Contact"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div style=" width:100%; max-width:1500px">
+                <h1> Games!</h1>
+                <div style="margin-bottom: 30px">
+                    Here are some tools that I've created for my games or other projects
+                </div>
+                <div>
+                    <div class="project-list-section">
+                        <h1 class="project-list-title"> Game Tools </h1>
+                        <div class="project-list">
+                            <div class="project-item" id="Localisation_Tool-Open-Button">
+                                <img class="project-item-image" src="../../img/Projects/Tools/Localisation_Tool/thumbnail.png"/>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Localisation Tool
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-list-section">
+                        <h1 class="project-list-title"> Other Tools </h1>
+                        <div class="project-list">
+                            <div class="project-item" id="Feur-Open-Button">
+                                <img class="project-item-image" src="../../img/ProfilePicture.png"/>
+                                <div class="title-bar" style="background-color: rgba(0, 0, 0, 0.867)">
+                                    <div class="title-text">
+                                        Feur
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="game-popup" id="Localisation_Tool-div">
+                <div class="overlay" id="Localisation_Tool-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Localisation Tool </h1>
+                    <div class="dialog-close" id="Localisation_Tool-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                This tool has been made in Unity. </br>
+                                The purpose of this tool is to make <a href="../GameProjects">"Botanicat"</a> a multi-language game. </br>
+                            </div>
+                            <div class="paragraph center">
+                                <img src="../../img/Projects/Tools/Localisation_Tool/thumbnail.png" frameborder="0" style="aspect-ratio: 1">
+                            </div>
+                            <div class="paragraph">
+                                Tool Info:
+                                <ul>
+                                    <li>
+                                        Localisation on Strings and Assets
+                                    </li>
+                                    <li>
+                                        2 new Unity Editor to configure and link localisation
+                                    </li>
+                                    <li>
+                                        Store Localisation in a CSV file
+                                    </li>
+                                    <li>
+                                        Add a new language by including it in an Enum
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="paragraph center">
+                                <h3> Editor to localise Strings </h3>
+                                <img class="screenshot" src="../../img/Projects/Tools/Localisation_Tool/1.png" />
+                            </div>
+                            <div class="paragraph center">
+                                <h3> Editor to localise Assets (here Texture2D) </h3>
+                                <img class="screenshot" src="../../img/Projects/Tools/Localisation_Tool/2.png" />
+                            </div>
+                            <div class="paragraph center">
+                                <h3> Property Drawer in Inspector to link data </h3>
+                                <img class="screenshot" src="../../img/Projects/Tools/Localisation_Tool/4.png" />
+                            </div>
+                            <div class="paragraph center">
+                                <h3> Search Editor to apply data to a Property Drawer </h3>
+                                <img class="screenshot" src="../../img/Projects/Tools/Localisation_Tool/3.png" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="Localisation_Tool-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-popup" id="Feur-div">
+                <div class="overlay" id="Feur-Close-Button0"></div>
+                <div class="dialog" style="background-color: rgb(0, 0, 0)">
+                    <h1 class="dialog-title"> Feur </h1>
+                    <div class="dialog-close" id="Feur-Close-Button1">
+                        <img src="../../img/close.png">
+                    </div>
+                    <div class="dialog-content">
+                        <div>
+                            <div class="paragraph">
+                                Feur is a game Engine currently under construction. </br>
+                                I will provide update and feedback you on the dev log here. </br>
+                                </br>
+                                Since I'm new to game engine creation, I'm following The Cherno's Game Engine series. Link here :<a href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT"> https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT </a>
+                            </div>
+                            <div class="paragraph center">
+                                <a data-v-imgLink href="https://github.com/gunilem/Feur" target="_blank">
+                                    <img src="../../img/github.png"  style="width: 100%; max-width: 300px">
+                                </a>
+                            </div>
+                            <div class="paragraph">
+                                <h2> Dev Logs </h2>
+                                <div class="Dev-Log">
+                                    <h3> Log 1 </h3>
+                                    <div class="paragraph">
+                                        <ul>
+                                            <li> Add fondation of a Layer system </li>
+                                            <li> Link window events to the Event system </li>
+                                            <li> Add <a href="https://github.com/glfw/glfw"> GLFW </a> to handle windows </li>
+                                            <li> Setup precompile headers </li>
+                                            <li> Add Event system based on blocking architecture </li>
+                                            <li> Add <a href="https://github.com/premake/premake-core"> premake </a> to the project </li>
+                                            <li> Add Log system to the engine using <a href="https://github.com/gabime/spdlog"> sqdlog </a> for now </li>
+                                            <li> Setup basic application and entry point </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="dialog-bottom" id="Feur-Close-Button2">
+                        <a class="dialog-close-button"> Close </a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="footer">
+            <div class="left">
+                <a href="../..">Portfolio</a>
+                by Gunilem
+            </div>
+            <div class="right">
+                Reach me at <a href="mailto:paul.lemattre1@gmail.com"> paul.lemattre1@gmail.com </a> or <a href="../Contact">through here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        gamePopup('Localisation_Tool');
+        gamePopup('Feur');
+
+        function gamePopup(gameName) {
+            const openButton = document.getElementById(gameName + '-Open-Button');
+            const div = document.getElementById(gameName + '-div');
+            const closeButton0 = document.getElementById(gameName + '-Close-Button0');
+            const closeButton1 = document.getElementById(gameName + '-Close-Button1');
+            const closeButton2 = document.getElementById(gameName + '-Close-Button2');
+
+            openButton.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (div.style.display === 'none' || div.style.display === '') {
+                    div.style.display = 'block';
+                }
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            });
+
+            closeButton0.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+
+            closeButton1.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+
+            closeButton2.addEventListener('click', function () {
+                // Toggle display between 'none' and 'block'
+                if (!(div.style.display === 'none' || div.style.display === '')) {
+                    div.style.display = 'none';
+                }
+            });
+
+        }
+
+        const sandwitchOpenButton = document.getElementById('open-sandwitch-Button');
+        const sandwitchCloseButton = document.getElementById('sandwitch-div');
+        const sandwitchDiv = document.getElementById('sandwitch-div');
+
+        sandwitchOpenButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
+        });
+
+        sandwitchCloseButton.addEventListener('click', function () {
+            // Toggle display between 'none' and 'block'
+            sandwitchDiv.classList.toggle('active')
+            document.body.classList.toggle('stop-scrolling');
+        });
+
+    </script>
+
+    <!--<script src="../js/chunk-vendors.da034d02.js"></script>
+    <script src="../js/app.a7c0fcc5.js"></script>-->
+
+</body>
+</html>
